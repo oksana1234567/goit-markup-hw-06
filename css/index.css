@@ -710,3 +710,96 @@ li {
   padding-bottom: 21px;
   align-items: center;
 }
+/* <!-- Модальное окно --> */
+
+.backdrope {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 100px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.modal-slogan {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 528px;
+  min-height: 581px;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.form-field {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.form-label {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+
+  transition: transform 250ms linear;
+}
+
+.form-input {
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  padding-left: 40px;
+  font: inherit;
+  border-radius: 3px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.comment {
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  padding: 10px 20px;
+  padding-left: 40px;
+  font: inherit;
+  border-radius: 3px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  color: #2196f3;
+  transform: translateY(-50px);
+  border: 1px solid #2196f3;
+}
+
+.icon-modal {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+
+  transform: translateY(-50%);
+
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.form-input:focus ~ .icon-modal {
+  color: #2196f3;
+}
