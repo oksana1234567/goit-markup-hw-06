@@ -390,8 +390,24 @@
               </li>
             </ul>
           </div>
+        <div class="footer-element2">
+        <section class="sub">
+          <h3 class="sub-header">
+            Подпишитесь на рассылку
+          </h3>
+          <form class="form">
+              <!-- <label class="label-footer"> E-mail </label> -->
+              <input type="email" name="mail" id="mail-footer" placeholder="E-mail" class="input-footer" autocomplete="off"/>
+               <button type="submit" class="submit-footer">Подписаться</button>
+                <svg class="footer-svg-send">
+                <use href="./svg/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+              </div>
+              </form>
+        </section>
+      </div>
         </div>
-        <p class="developed">2020 | Developed by GoIT Students</p>
+        <p class="developed"> 2020 | Developed by GoIT Students </p>
       </div>
     </footer>
     <!-- Модальное окно -->
@@ -399,60 +415,71 @@
       <div class="modal">
       <p class="modal-slogan">Оставьте свои данные, мы вам перезвоним</p>
       <form class="form">
+        <ul>
+          <li>
+        
 <div class="form-field">
   <input type="text" name="name" id="name" placeholder=" " class="form-input" autocomplete="off"/>
   <label class="form-label" for="name">
-    Имя
+   <span class="input-text"> Имя </span>
   </label>
   <span>
   <svg class="icon-modal">
-    <use href="./svg/symbol-defs.svg#icon-person-modal"></use>
+    <use href="./svg/symbol-defs.svg#icon-person-black"></use>
   </svg>
   </span>
  </div>
-
+</li>
+<li>
 <div class="form-field">
   <input type="tel" name="tel" id="tel" placeholder=" " class="form-input" autocomplete="off" />
   <label class="form-label" for="tel">
-    Телефон
+    <span class="input-text"> Телефон </span>
   </label>
   <span>
     <svg class="icon-modal">
-      <use href="./svg/symbol-defs.svg#icon-phone-modal"></use>
+      <use href="./svg/symbol-defs.svg#icon-phone-black"></use>
     </svg>
   </span>
 </div>
-
+</li>
+<li>
 <div class="form-field">
   <input type="email" name="mail" id="mail" placeholder=" " class="form-input" autocomplete="off"/>
   <label class="form-label" for="mail">
-       Почта
+      <span class="input-text"> Почта</span>
   </label>
   <span>
     <svg class="icon-modal">
-      <use href="./svg/symbol-defs.svg#icon-email-modal"></use>
+      <use href="./svg/symbol-defs.svg#icon-email-black"></use>
     </svg>
   </span>
 </div>
-
+</li>
+<li>
 <div class="form-field">
-  <input type="text" name="comment" id="comment" placeholder=" " class="comment" />
-<label class="form-label" for="comment">
-  Комментарий
+  <input type="text" name="comment" id="comment" placeholder=" " class="comment2" />
+<label class="form-label2" for="comment">
+ <span class="input-text2"> Комментарий </span>
 </label>
 </div>
+</li>
+<li>
 <div class="form-field">
-  <input type="checkbox" name="permission" id="permission"/>
-  <label class="form-label" for="permission"> 
-    <svg class="icon-modal">
+  <input type="checkbox" name="permission" id="permission" class="checkbox"/>
+  <label class="form-label3" for="permission"> 
+    <svg class="icon-modal2">
       <use href="./svg/symbol-defs.svg#icon-icon"></use>
     </svg>
-    Соглашаюсь с рассылкой и принимаю Условия договора
+   <div class="all-agreement"> <span class="confirm"> Соглашаюсь с рассылкой и принимаю </span>  <a href="" class="contract"> Условия договора </a> </div>
   </label>
-</div>
+  </div>
+  </li>
+  <li>
+  <div class="modal-button"><button type="submit" class="submit-modal">Отправить</button> </div> </li>
+    </ul>
       </form>
       </div>
     </div>
-
 </body>
 </html>
