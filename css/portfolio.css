@@ -410,7 +410,7 @@ li {
 }
 
 .flex-footer .footer-element + .footer-element {
-  margin-left: 69px;
+  margin-left: 60px;
 }
 
 .social-icon-footer {
@@ -424,7 +424,7 @@ li {
 }
 
 .social-icon-footer .social-element + .social-element {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .social-element-url {
@@ -549,7 +549,7 @@ li {
 }
 
 .footer-element2 {
-  margin-left: 94px;
+  margin-left: 100px;
 }
 
 .footer-svg-send {
@@ -557,8 +557,11 @@ li {
   width: 18px;
   height: 18px;
   bottom: 0;
-  left: 40%;
   transform: translate(50%, 20%);
+}
+
+.form {
+  display: flex;
 }
 
 .submit-footer {
@@ -582,6 +585,10 @@ li {
   margin-left: 12px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  position: relative;
+  cursor: pointer;
+  border: none;
 }
 
 /* .label-footer {
@@ -602,6 +609,7 @@ li {
   height: 50px;
   padding-left: 16px;
   border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 ::-webkit-input-placeholder {
