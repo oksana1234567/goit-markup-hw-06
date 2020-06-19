@@ -737,7 +737,7 @@ li {
   transform: translate(50%, 20%);
 }
 
-.form {
+.form-footer {
   display: flex;
 }
 
@@ -746,8 +746,8 @@ li {
   background-color: #2196f3;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 29px;
-  padding-right: 62px;
+  padding-left: 28px;
+  padding-right: 28px;
 
   font-family: Roboto;
   font-style: normal;
@@ -1062,6 +1062,8 @@ li {
 }
 
 .icon-close {
+  width: 11px;
+  height: 11px;
   position: absolute;
   top: 50%;
   left: 50%;
